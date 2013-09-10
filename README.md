@@ -19,7 +19,7 @@ sqlite3 Metplus.db
 
 .schema MetPlus
 
-Result:
+<b>Result:</b>
 
 CREATE TABLE MetPlus
 (INCHIKEY VARCHAR(30),
@@ -43,7 +43,7 @@ FooDB_ID VARCHAR(30));
 
 select * from MetPlus limit 2;
 
-Result:
+<b>Result:</b>
 
 inchikey,monoisotopic_weight,formula,common_name,iupac_name,systematic_name,trade_name,HMDB_id,
 LMDB_id,Humancyc_id,Pubchem_CID,Chemspider_id,Chebi_id,metlin_id,KEGG_id,foodb_id
@@ -56,7 +56,7 @@ AAAFZMYJJHWUPN-AIHAYLRMSA-J,305.954184,C5H8O11P2-4,D-ribose 1,5-diphosphate,[(2S
 
 select * from MetPlus where COMMON_NAME = 'Glycerol';
 
-Result:
+<b>Result:</b>
 
 inchikey,monoisotopic_weight,formula,common_name,iupac_name,systematic_name,trade_name,HMDB_id,
 LMDB_id,Humancyc_id,Pubchem_CID,Chemspider_id,Chebi_id,metlin_id,KEGG_id,foodb_id
