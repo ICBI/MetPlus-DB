@@ -41,7 +41,7 @@ FooDB_ID VARCHAR(30));
 
 2) Running SQL query to output first 2 rows from MetPlus-DB
 
-select * from MetPlus limit 3;
+select * from MetPlus limit 2;
 
 Result:
 
