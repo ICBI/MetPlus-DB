@@ -13,7 +13,7 @@ Usage:
 
 1) Loading Sqlite Database
 
-sqlite3 Metplus.db
+sqlite3 MetPlus.db
 
 2) Look-up Database Schema
 
